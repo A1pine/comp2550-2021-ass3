@@ -19,9 +19,11 @@
 
 \par\noindent For current Visual-Linguistic problems, the most widely used method is deep learning. Neural networks are the core of deep learning and have been applied to many Computer Vision and Natural Language Processing models. They have shown their capability to model complex patterns and prediction problems.
 
+\par\noindent \newline In machine learning models, hyperparameters could notably affect the performance. Therefore, the choice of hyperparameters is essential in improving performance. However, there are a large number of hyperparameters in neural networks. The neural network architecture is one of the hyperparameters (i.e., how layers could be connected to build the whole network). We are motivated by applying MMNAS \cite{DBLP:journals/corr/abs-2004-12070} to MCAN \cite{DBLP:journals/corr/abs-1906-10770} to search for the optimal combination of attention modules. Thus, we decided to use Neural Architecture Search (NAS) in searching for the optimal transformer architecture in OSCAR \cite{DBLP:journals/corr/abs-2004-06165} to further improve its performance.
 
-\par\noindent \newline In machine learning models, hyperparameters could notably affect the performance. Therefore, the choice of hyperparameters is essential in improving the performance. However, there are a large number of hyperparameters in neural networks. The nerual network architecture is one of the hyperparameters (i.e., how layers could be connected to build the whole network). Thus, we decided to use Neural Architecture Search (NAS) in searching for the optimal transformer layers in OSCAR to further improve its performance.
+\par\noindent \newline In terms of the transformer layers in the current OSCAR \cite{DBLP:journals/corr/abs-2004-06165} model. They applied traditional universal transformers \cite{DBLP:journals/corr/VaswaniSPUJGKP17} after the token extraction step. This model is still the state-of-the-art model in the VQA field even though no advanced transformer is applied to it. It motivated our group because by using neural architecture search, we may find a superior transformer architecture especially for OSCAR. A new OSCAR model with higher accuracy or with fewer parameters may emerge.
 
-\par\noindent \newline
+\bibliographystyle{IEEEtran}
+\bibliography{ref}
 
 \end{document}

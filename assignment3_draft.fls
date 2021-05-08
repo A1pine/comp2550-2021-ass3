@@ -96,6 +96,19 @@ INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3_draft.bbl
+INPUT f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3_draft.bbl
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3_draft.aux
 INPUT f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3_draft.out
@@ -103,3 +116,4 @@ INPUT f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3_draft
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
