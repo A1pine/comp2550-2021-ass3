@@ -28,6 +28,9 @@ We will mainly focus on searching for better substitute transformer parameters a
 of the OSCAR model, hence we will divide our research topic's summary of state of the art into 
 two parts, one is for original transformer in OSCAR model, another is for the most advanced NAS 
 architecture, MMNAS. \\
+\subsubsection{OSCAR}
+As the title of the original paper infers, OSCAR stands for Object-Semantics Aligned Pre-training for Vision-Language Tasks, it is state of the art on vision-language tasks. Vision-language  pre-training models before OSCAR mostly connect image and text features together as input and use them with self-attention mechanism to learn the semantic information in brutal force. Such process is normally done with multi-layer Transformers. Since extracting semantic alignments is basically like a headless chicken, essential information between visual and text regions might be ignored. \\
+Previous methods majorly apply multi-layer self-attention Transformers to learn cross-modal background representations, with singular embedding of each modality, which makes result of VLP tasks mostly affected by the input singular embedding. Nevertheless, VLP is naturally a weakly-supervised learning task since the explicit information between text and images are always not well labeled. On the other hand, visual features extracted with Fast R-CNN object detectors  are usually over-sampled, which result in ambiguities for the extracted visual embedding. To improve this situation, OSCAR innovatively introduces \verb|anchor point| to help the model learn semantic alignments between images and texts. \verb|anchor point| is like an object tags detected in images. They treat the training samples as a combination of word, images and \verb|anchor point|. \\
 \bibliographystyle{IEEEtran}
 \bibliography{ref}
 
