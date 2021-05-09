@@ -51,4 +51,12 @@ A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
   \url{http://arxiv.org/abs/1706.03762}
 \BIBentrySTDinterwordspacing
 
+\bibitem{DBLP:journals/corr/abs-2101-11562}
+\BIBentryALTinterwordspacing
+Y.~Li, Y.~Pan, T.~Yao, J.~Chen, and T.~Mei, ``Scheduled sampling in
+  vision-language pretraining with decoupled encoder-decoder network,''
+  \emph{CoRR}, vol. abs/2101.11562, 2021. [Online]. Available:
+  \url{https://arxiv.org/abs/2101.11562}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

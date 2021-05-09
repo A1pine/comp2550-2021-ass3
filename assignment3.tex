@@ -1,0 +1,54 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage[colorlinks,
+            linkcolor=blue,
+            anchorcolor=blue,
+            citecolor=blue]{hyperref}
+\geometry{left=2cm, right=2cm, top=2cm, bottom=2cm}
+
+\title{COMP2550 Assignment3}
+\author{Xingjian Leng(u7136359), Xuning Tan(u6792826), Zhe Chen(u)}
+\date{May 2021}
+
+\begin{document}
+    
+\maketitle
+
+\subsection*{Q2}
+
+\par\noindent For current Visual-Linguistic problems, the most widely used method is deep learning. Neural networks are the core of deep learning and have been applied to many Computer Vision and Natural Language Processing models. They have shown their capability to model complex patterns and prediction problems.
+
+\par\noindent \newline In machine learning models, hyperparameters could notably affect the performance. Therefore, the choice of hyperparameters is essential in improving performance. However, there are a large number of hyperparameters in neural networks. The neural network architecture is one of the hyperparameters (i.e., how layers could be connected to build the whole network). We are motivated by applying MMNAS \cite{DBLP:journals/corr/abs-2004-12070} to MCAN \cite{DBLP:journals/corr/abs-1906-10770} to search for the optimal combination of attention modules. Thus, we decided to use Neural Architecture Search (NAS) in searching for the optimal transformer architecture in OSCAR \cite{DBLP:journals/corr/abs-2004-06165} to further improve its performance.
+
+\par\noindent \newline In terms of the transformer layers in the current OSCAR \cite{DBLP:journals/corr/abs-2004-06165} model. They applied traditional universal transformers \cite{DBLP:journals/corr/VaswaniSPUJGKP17} after the token extraction step. This model is still the state-of-the-art model in the VQA field even though no advanced transformer is applied to it. It motivated our group because by using neural architecture search, we may find a superior transformer architecture especially for OSCAR. A new OSCAR model with higher accuracy or with fewer parameters may emerge.
+
+
+\subsection*{Q3 Overall summary}
+\par\noindent Our group is going to apply Neural Architecture Search(NAS) vision-language tasks. We will mainly focus on searching for better substitute transformer parameters and architectures of the OSCAR \cite{DBLP:journals/corr/abs-2004-06165} model, hence we will divide our research topic's summary of state of the art into 
+two parts, one is for original transformer in OSCAR \cite{DBLP:journals/corr/abs-2004-06165} model, another is for the most advanced NAS 
+architecture, MMNAS.
+
+\subsubsection*{OSCAR}
+As the title of the original paper infers, OSCAR \cite{DBLP:journals/corr/abs-2004-06165} stands for Object-Semantics Aligned Pre-training for Vision-Language Tasks, it is state of the art on vision-language tasks. Vision-language  pre-training models before OSCAR \cite{DBLP:journals/corr/abs-2004-06165} mostly connect image and text features together as input and use them with self-attention mechanism to learn the semantic information in brutal force. Such process is normally done with multi-layer Transformers. Since extracting semantic alignments is basically like a headless chicken, essential information between visual and text regions might be ignored.
+
+\par\noindent \newline Previous methods majorly apply multi-layer self-attention Transformers to learn cross-modal background representations, with singular embedding of each modality, which makes result of VLP tasks mostly affected by the input singular embedding. Nevertheless, VLP is naturally a weakly-supervised learning task since the explicit information between text and images are always not well labeled. On the other hand, visual features extracted with Fast R-CNN object detectors  are usually over-sampled, which result in ambiguities for the extracted visual embedding. To improve this situation, OSCAR \cite{DBLP:journals/corr/abs-2004-06165} innovatively introduces \verb|anchor point| to help the model learn semantic alignments between images and texts. \verb|anchor point| is like an object tags detected in images. They treat the training samples as a combination of word, images and \verb|anchor point|.
+
+\subsubsection*{MMnas}
+The deep learning community is taking a transition from human-designed neural architecture to automatically self-designed neural architecture, known as AutoML. Neural Architecture Search is a subset of AutoML, it majorly focuses on automated Neural Network architecture selection and creation, past year have seen has a great number of successful applications of NAS. A NAS procedure can be divided into three components, (1) Search Space, (2)Candidate Evaluation Method and (3)Optimization Method. Search defines the potential network that can be examined to produce the final desired Neural Network. The candidate evaluation method is for comparing the intermediate result and help choose various options among the search space. The optimization method defines how to actually explor the search space, which is essential to the search efficiency and effectiveness of the result architecture.
+MMnas \cite{DBLP:journals/corr/abs-2004-12070} is a generalized deep multi-modal neural architecture search framwork for multi-model learning task, the underlying thought is based on BERT model from the natural language processing (NLP), however it is more efficient as it does not require as much data compared to BERT, the huge computing power required by BERT hinders its application in practical situations. Inspired by MCAN model, it firstly searches a set of primitive operations, including feed-forwardnetwork (FFN), self-attention (SA), relation self-attention (RSA) and guided-attention (GA) as the basic unit, they used a unified encoder-decoder backbone through directly sending features into the encoder and decoder. They also designed task-specific heads to different visual linguistic tasks, such as visual question answering and image-text matching(ITM).
+As a result, With the standard visual features, MMnas \cite{DBLP:journals/corr/abs-2004-12070} achieves an outstanding improvements on existing hand-crafted models accross different datasets. When applied powerful visual features, MMnas achieved state of the art performance accross all datasets. Thanks to task-specific heads and unified encoder-decoder, MMnas \cite{DBLP:journals/corr/abs-2004-12070} has the ability to automatically learn the optimal architectures of different tasks. 
+
+\subsection*{Q3 OSCAR summary by Xingjian Leng}
+\par\noindent \newline Part of our research topic is related to VQA, the current state-of-the-art VQA model is "Object-Semantics Aligned Pre-training for Vision-Language Tasks" (OSCAR) \cite{DBLP:journals/corr/abs-2004-06165}.
+
+\par\noindent \newline In OSCAR \cite{DBLP:journals/corr/abs-2004-06165}, they firstly extract visual and semantic features from input images and sentences. Then, they introduced a new idea using "Object-tag", motivated by the fact that salient image features would also appear in sentences as pairs. Object tags are derived by aligning text tokens on the anchor points generated from the Faster R-CNN. They contain information about the feature alignment between two modalities. 
+
+\par\noindent \newline Next, visual features, object tags and text tokens are combined as triples and send to the multi-layer transformers. Transformers are widely used in models with multi-modal features. For transformer \cite{DBLP:journals/corr/VaswaniSPUJGKP17} in each layer, it is consist of a multi-head attention layer and a feed-forward network. In the multi-head attention layer, the output is calculated by multiplying the input Value matrix with the attention probability. The attention probability shows how the Query matrix is related to the Key matrix. The purpose of the multi-head attention layer is to calculate the weighted sum of encoded outputs, namely the context. Then, the output from the attention layer is sent to the feed-forward neural network to generate the output. 
+
+\par\noindent \newline One advantage to use transformers is that they can be pre-trained with certain visual-linguistic tasks. For pre-training, one common method is to mask some tokens and train the neural network to figure out the mask tokens. After pre-training, the model can be trained with the specific downstream task. Thus, models using transformers could usually tackle more than one type of visual-linguistic tasks. It is suggested in \cite{DBLP:journals/corr/abs-2101-11562} that pre-training could boost the performance of models. 
+
+\bibliographystyle{IEEEtran}
+\bibliography{ref}
+
+\end{document}
