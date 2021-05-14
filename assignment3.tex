@@ -14,6 +14,8 @@
 \begin{document}
     
 \maketitle
+\subsection{Q1}
+The previous Visual-Linguistic problems (VLP) methods combine image and text features as model input for multimodal pre-training. They mostly designed to use a transformer self-attention mechanism to learn image text semantic alignment by brute force but cannot offer any modal clues. \cite{DBLP:journals/corr/abs-2004-06165} After Oscar was proposed, this method uses object tags as anchor points to align images and language modalities in a shared semantic space, handling Vision + language multimodal well problem. [3] However, we found that Oscar still uses the most primitive transformer layer to achieve their results, in this case, we would like to use Neural Architecture Search (NAS) to search for better Oscar transformers automatically. Considering Oscar uses the most concise Transformer, search for a new Transformer through NAS may be quite complicated. Still, we hope to create a new, slightly more complex architecture to improve the accuracy and efficiency of the existing Oscar.
 
 \subsection*{Q2}
 
