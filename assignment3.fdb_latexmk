@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex assignment3"] 1621158095 "assignment3.aux" "assignment3.bbl" "assignment3" 1621158935
-  "assignment3.aux" 1621158935 1967 8616ae8d9f6013838c1bd9341e5464da "pdflatex"
+["bibtex assignment3"] 1621160627 "assignment3.aux" "assignment3.bbl" "assignment3" 1621160707
+  "assignment3.aux" 1621160707 2182 a44460f94cecd0894dafe25c51bf9625 "pdflatex"
   "c:/texlive/2020/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1616379058 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "ref.bib" 1621149725 5125 9b2507925e233a7508a921a13ee66bd6 ""
+  "ref.bib" 1621160248 6451 54a32f84d123a227be95bfd9a6ab853b ""
   (generated)
-  "assignment3.bbl"
   "assignment3.blg"
-["pdflatex"] 1621158934 "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.tex" "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.pdf" "assignment3" 1621158935
-  "assignment3.aux" 1621158935 1967 8616ae8d9f6013838c1bd9341e5464da "pdflatex"
-  "assignment3.bbl" 1621158096 3305 1a017c45ec83f56873feb762823ae23b "bibtex assignment3"
-  "assignment3.out" 1621158934 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "assignment3.tex" 1621158933 11167 57980dec5d61be54b457c333fc103289 ""
+  "assignment3.bbl"
+["pdflatex"] 1621160706 "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.tex" "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.pdf" "assignment3" 1621160707
+  "assignment3.aux" 1621160707 2182 a44460f94cecd0894dafe25c51bf9625 "pdflatex"
+  "assignment3.bbl" 1621160627 3934 5788aad0f102829580ecdc3c5e041cee "bibtex assignment3"
+  "assignment3.out" 1621160706 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "assignment3.tex" 1621160705 11687 fe05fa2e9beea7b1c0f7cf9afda9df9d ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1616379591 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1616379302 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1616379302 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -67,12 +67,12 @@
   "c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616380917 4851253 a533a4526d7bf069c355e34a42d65ce7 ""
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1616381039 2432390 14b470b88da6e6628712933fb202cc94 ""
   "c:/texlive/2020/texmf.cnf" 1616380896 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.aux" 1621158935 1967 8616ae8d9f6013838c1bd9341e5464da ""
-  "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.tex" 1621158933 11167 57980dec5d61be54b457c333fc103289 ""
+  "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.aux" 1621160707 2182 a44460f94cecd0894dafe25c51bf9625 ""
+  "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.tex" 1621160705 11687 fe05fa2e9beea7b1c0f7cf9afda9df9d ""
   (generated)
-  "assignment3.aux"
   "assignment3.pdf"
-  "assignment3.out"
+  "assignment3.aux"
   "assignment3.log"
+  "assignment3.out"
   "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.pdf"
   "f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.log"

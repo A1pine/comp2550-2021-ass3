@@ -75,4 +75,19 @@ A.~G. Howard, M.~Zhu, B.~Chen, D.~Kalenichenko, W.~Wang, T.~Weyand,
   2017. [Online]. Available: \url{http://arxiv.org/abs/1704.04861}
 \BIBentrySTDinterwordspacing
 
+\bibitem{DBLP:journals/corr/ZophL16}
+\BIBentryALTinterwordspacing
+B.~Zoph and Q.~V. Le, ``Neural architecture search with reinforcement
+  learning,'' \emph{CoRR}, vol. abs/1611.01578, 2016. [Online]. Available:
+  \url{http://arxiv.org/abs/1611.01578}
+\BIBentrySTDinterwordspacing
+
+\bibitem{DBLP:journals/corr/abs-1712-00559}
+\BIBentryALTinterwordspacing
+C.~Liu, B.~Zoph, J.~Shlens, W.~Hua, L.~Li, L.~Fei{-}Fei, A.~L. Yuille,
+  J.~Huang, and K.~Murphy, ``Progressive neural architecture search,''
+  \emph{CoRR}, vol. abs/1712.00559, 2017. [Online]. Available:
+  \url{http://arxiv.org/abs/1712.00559}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
