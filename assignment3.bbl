@@ -59,4 +59,20 @@ Y.~Li, Y.~Pan, T.~Yao, J.~Chen, and T.~Mei, ``Scheduled sampling in
   \url{https://arxiv.org/abs/2101.11562}
 \BIBentrySTDinterwordspacing
 
+\bibitem{DBLP:journals/corr/RenHG015}
+\BIBentryALTinterwordspacing
+S.~Ren, K.~He, R.~B. Girshick, and J.~Sun, ``Faster {R-CNN:} towards real-time
+  object detection with region proposal networks,'' \emph{CoRR}, vol.
+  abs/1506.01497, 2015. [Online]. Available:
+  \url{http://arxiv.org/abs/1506.01497}
+\BIBentrySTDinterwordspacing
+
+\bibitem{DBLP:journals/corr/HowardZCKWWAA17}
+\BIBentryALTinterwordspacing
+A.~G. Howard, M.~Zhu, B.~Chen, D.~Kalenichenko, W.~Wang, T.~Weyand,
+  M.~Andreetto, and H.~Adam, ``Mobilenets: Efficient convolutional neural
+  networks for mobile vision applications,'' \emph{CoRR}, vol. abs/1704.04861,
+  2017. [Online]. Available: \url{http://arxiv.org/abs/1704.04861}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

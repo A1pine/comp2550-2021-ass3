@@ -1,14 +1,14 @@
 \documentclass[12pt, a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
-\usepackage[colorlinks,
+\usepackage[colorlinks=false,
             linkcolor=blue,
             anchorcolor=blue,
             citecolor=blue]{hyperref}
 \geometry{left=2cm, right=2cm, top=2cm, bottom=2cm}
 
 \title{COMP2550 Assignment3}
-\author{Xingjian Leng(u7136359), Xuning Tan(u6792826), Zhe Chen(u)}
+\author{Xingjian Leng(u7136359), Xuning Tan(u6792826), Zhe Chen(u6484911)}
 \date{May 2021}
 
 \begin{document}
@@ -47,6 +47,14 @@ As a result, With the standard visual features, MMnas \cite{DBLP:journals/corr/a
 \par\noindent \newline Next, visual features, object tags and text tokens are combined as triples and send to the multi-layer transformers. Transformers are widely used in models with multi-modal features. For transformer \cite{DBLP:journals/corr/VaswaniSPUJGKP17} in each layer, it is consist of a multi-head attention layer and a feed-forward network. In the multi-head attention layer, the output is calculated by multiplying the input Value matrix with the attention probability. The attention probability shows how the Query matrix is related to the Key matrix. The purpose of the multi-head attention layer is to calculate the weighted sum of encoded outputs, namely the context. Then, the output from the attention layer is sent to the feed-forward neural network to generate the output. 
 
 \par\noindent \newline One advantage to use transformers is that they can be pre-trained with certain visual-linguistic tasks. For pre-training, one common method is to mask some tokens and train the neural network to figure out the mask tokens. After pre-training, the model can be trained with the specific downstream task. Thus, models using transformers could usually tackle more than one type of visual-linguistic tasks. It is suggested in \cite{DBLP:journals/corr/abs-2101-11562} that pre-training could boost the performance of models. 
+
+\subsection*{Q4}
+\par\noindent \newline During the teaching break, our group focused on applying light-weighted backbones to current state-of-the-art VQA models. For example, replace the Faster R-CNN \cite{DBLP:journals/corr/RenHG015} for image feature extraction with MobileNet \cite{DBLP:journals/corr/HowardZCKWWAA17}. MobileNet \cite{DBLP:journals/corr/HowardZCKWWAA17} is one type of light-weighted network. It requires fewer parameters for training. Thus, it could be easily applied to embedded systems and deployed. In the first tutorial after the teaching break, we discussed our thoughts with tutor. However, the tutor mentioned that applying light-weighted networks to current state-of-the-art models will definitely speed up the training process. It cannot be considered as innovation. Therefore, our group decided to change the research topic.
+
+\par\noindent \newline Our group then read certain papers about how to improve the performance of neural networks. We were inspired by the MMnas paper. We finalized our research topic to apply Neural Architecture Search to the current state-of-the-art visual-question answering model. 
+
+\par\noindent \newline After finalizing our research topic, we read more paper in the following weeks because we lacked the basic knowledge of how neural architecture search works. 
+
 
 \bibliographystyle{IEEEtran}
 \bibliography{ref}
