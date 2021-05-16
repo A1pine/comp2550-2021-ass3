@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.22)  16 MAY 2021 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.22)  17 MAY 2021 00:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -245,18 +245,18 @@ Package rerunfilecheck Info: File `assignment3.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 4937 strings out of 480608
- 78303 string characters out of 5907536
- 346717 words of memory out of 5000000
- 20754 multiletter control sequences out of 15000+600000
+ 4939 strings out of 480608
+ 78376 string characters out of 5907536
+ 346773 words of memory out of 5000000
+ 20755 multiletter control sequences out of 15000+600000
  538022 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,29p,1105b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,6n,29p,1860b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.pdf (5 pages, 70451 bytes).
+Output written on f:/ANU/semester1-2021/COMP2550/assignment3/comp2550-ass3/assignment3.pdf (5 pages, 71778 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
